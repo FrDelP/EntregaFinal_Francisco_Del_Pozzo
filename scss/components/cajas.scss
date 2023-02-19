@@ -1,0 +1,59 @@
+$color_1: white;
+$background-color_1: white;
+$background-color_2: #35424a;
+
+/* Servicios */
+/* SOBRE NOSOTROS */
+#cajas {
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+	.recuadro {
+		width: 300px;
+	}
+	.flex {
+		flex-direction: column;
+	}
+}
+.caja {
+	margin: 40px 0;
+	&:hover {
+		transform: translateY(-15px);
+	}
+}
+.recuadro {
+	background-color: $background-color_1;
+	border-radius: 10px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	margin: 10px;
+}
+#servicios {
+	.grid {
+		margin: 20px 0;
+		grid-template-columns: 60% 40%;
+		gap: 45px;
+		overflow: hidden;
+	}
+}
+.service {
+	text-align: center;
+}
+.barra-lateral {
+	text-align: left;
+	margin-left: 40px;
+	.recuadro {
+		height: 410px;
+	}
+}
+.nosotros {
+	.recuadro {
+		background-color: $background-color_2;
+		color: $color_1;
+		text-align: center;
+		margin: 50px;
+		padding: 10px;
+	}
+	margin: 20px 0;
+	margin-top: 90px;
+}

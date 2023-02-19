@@ -1,0 +1,58 @@
+@media(max-width: 768px) {
+
+    .header {
+        margin-bottom: 5px;
+    }
+
+    .navbar {
+        height: 110px;
+    }
+
+    .navbar .flex {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    #showcase h1 {
+        margin-top: 60px;
+    }
+
+    .grid,
+    #cajas .container .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
+    .caja {
+        margin-left: 26%;
+    }
+
+    #newsletter h1,
+    #newsletter form {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #servicios .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: none;
+    }
+}
+
+@media(max-width: 500px) {
+    #newsletter .boton1 {
+        display: block;
+        width: 100%;
+    }
+
+    #newsletter input[type="email"] {
+        margin-bottom: 5px;
+    }
+}

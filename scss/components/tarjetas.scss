@@ -1,0 +1,113 @@
+$color_1: #ddd;
+$color_2: #333;
+$color_3: #ccc;
+$font-family_1: sans-serif;
+$font-family_2: Fontawesome;
+$background-color_1: #01AFEC;
+$background-color_2: #DB4A37;
+
+/* Contenedor general */
+/* Cada tarjeta */
+/* Logos */
+/* Sombra parte inferior */
+/* Colores Twitter */
+/* Colores Google+ */
+/* Colores Facebook */
+/* Colores Linkedin */
+/* Colores Pinterest */
+/* Colores Instagram */
+.cartera {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+	max-width: 500px;
+	margin: 40px auto 0;
+	text-align: center;
+	line-height: 56px;
+	font-size: 14px;
+	font-family: $font-family_1;
+}
+.tarjeta {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+	height: 30px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	border-bottom: 3px groove #eee;
+	a {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		&:before {
+			display: inline-block;
+			*display: inline;
+			zoom: 1;
+			width: 20px;
+			margin-right: 10px;
+			text-align: center;
+			font-family: $font-family_2;
+			font-size: 18px;
+		}
+		&:after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			width: 102%;
+			margin-left: -51%;
+			height: 2px;
+			display: block;
+			border-radius: 80px 80px 0 0;
+			box-shadow: 0 -2px 6px #666;
+			z-index: -1;
+		}
+	}
+}
+.tarjeta.ttwitter {
+	a {
+		color: $color_1;
+		background-color: $background-color_1;
+		border-top: 2px solid #43CFFE;
+	}
+}
+.tarjeta.tgoogle {
+	a {
+		color: $color_2;
+		background-color: $background-color_2;
+		border-top: 2px solid #E88C80;
+	}
+}
+.tarjeta.tfacebook {
+	a {
+		color: $color_3;
+		background: #3B559F;
+		border-top: 2px solid #6B83C9;
+	}
+}
+.tarjeta.tlinkedin {
+	a {
+		color: $color_2;
+		background: #007BB6;
+		border-top: 2px solid #83A9CB;
+	}
+}
+.tarjeta.tpinterest {
+	a {
+		color: $color_3;
+		background: #CB2027;
+		border-top: 2px solid #E88C80;
+	}
+}
+.tarjeta.tinstagram {
+	a {
+		color: $color_3;
+		background: #42719D;
+		border-top: 2px solid #83A9CB;
+	}
+}

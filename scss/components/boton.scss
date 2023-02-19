@@ -1,0 +1,17 @@
+$color_1: white;
+$background-color_1: #e8491d;
+
+.boton {
+	text-align: center;
+	background-color: $background-color_1;
+	width: auto;
+	height: auto;
+}
+.boton1 {
+	height: 38px;
+	background: #e8491d;
+	border: 0;
+	padding: 0 20px;
+	color: $color_1;
+	cursor: pointer;
+}

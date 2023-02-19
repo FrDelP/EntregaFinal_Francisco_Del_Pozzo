@@ -1,0 +1,19 @@
+$color_1: white;
+
+/* Newsletter */
+#newsletter {
+	padding: 25px;
+	color: $color_1;
+	background: #35424a;
+	.flex {
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	input[type="email"] {
+		outline: none;
+		padding: 18px;
+		height: 25px;
+		width: 350px;
+		border: 0;
+	}
+}
